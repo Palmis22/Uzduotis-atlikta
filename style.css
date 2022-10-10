@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    height: 100vh;
+}
+
+.virsus {
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(107, 106, 104);
+    padding: 10px;
+}
+
+.kaire {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 33%;
+
+}
+
+.vidurys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 33%;
+    gap: 5px;
+}
+
+.desine {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 33%;
+    gap: 5px;
+}
+
+.parent {
+    background-color: rgb(66, 66, 66);
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 0.5fr repeat(16, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: aqua;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 9;
+    background-color: aqua;
+}
+
+.div3 {
+    grid-area: 1 / 9 / 2 / 10;
+    background-color: aqua;
+}
+
+.div4 {
+    grid-area: 1 / 2 / 3 / 9;
+    background-color: aqua;
+}
+
+.div5 {
+    grid-area: 1 / 2 / 4 / 9;
+    background-color: aqua;
+}
+
+.div6 {
+    grid-area: 2 / 9 / 4 / 10;
+    background-color: aqua;
+}
+
+.div7 {
+    grid-area: 2 / 1 / 4 / 2;
+    background-color: aqua;
+}
+
+.div8 {
+    grid-area: 4 / 1 / 6 / 2;
+    background-color: aqua;
+}
+
+.div9 {
+    grid-area: 4 / 2 / 6 / 3;
+    background-color: aqua;
+}
+
+.div10 {
+    grid-area: 4 / 3 / 6 / 4;
+    background-color: aqua;
+}
+
+.div11 {
+    grid-area: 4 / 4 / 6 / 5;
+    background-color: aqua;
+}
+
+.div12 {
+    grid-area: 4 / 5 / 6 / 6;
+    background-color: aqua;
+}
+
+.div13 {
+    grid-area: 4 / 6 / 6 / 7;
+    background-color: aqua;
+}
+
+.div14 {
+    grid-area: 4 / 7 / 6 / 8;
+    background-color: aqua;
+}
+
+.div15 {
+    grid-area: 4 / 8 / 6 / 9;
+    background-color: aqua;
+}
+
+.div16 {
+    grid-area: 4 / 9 / 6 / 10;
+    background-color: aqua;
+}
+
+.div17 {
+    grid-area: 6 / 1 / 8 / 2;
+    background-color: aqua;
+}
+
+.div18 {
+    grid-area: 6 / 2 / 8 / 3;
+    background-color: aqua;
+}
+
+.div19 {
+    grid-area: 6 / 3 / 8 / 4;
+    background-color: aqua;
+}
+
+.div20 {
+    grid-area: 6 / 7 / 8 / 8;
+    background-color: aqua;
+}
+
+.div21 {
+    grid-area: 6 / 8 / 8 / 9;
+    background-color: aqua;
+}
+
+.div22 {
+    grid-area: 6 / 9 / 8 / 10;
+    background-color: aqua;
+}
+
+.div23 {
+    grid-area: 8 / 1 / 10 / 2;
+    background-color: aqua;
+}
+
+.div24 {
+    grid-area: 8 / 2 / 10 / 3;
+    background-color: aqua;
+}
+
+.div25 {
+    grid-area: 10 / 1 / 12 / 2;
+    background-color: aqua;
+}
+
+.div26 {
+    grid-area: 10 / 2 / 12 / 3;
+    background-color: aqua;
+}
+
+.div27 {
+    grid-area: 12 / 1 / 14 / 2;
+    background-color: aqua;
+}
+
+.div28 {
+    grid-area: 12 / 2 / 14 / 3;
+    background-color: aqua;
+}
+
+.div29 {
+    grid-area: 14 / 1 / 16 / 2;
+    background-color: aqua;
+}
+
+.div30 {
+    grid-area: 8 / 3 / 10 / 4;
+    background-color: aqua;
+}
+
+.div31 {
+    grid-area: 10 / 3 / 12 / 4;
+    background-color: aqua;
+}
+
+.div32 {
+    grid-area: 12 / 3 / 14 / 4;
+    background-color: aqua;
+}
+
+.div33 {
+    grid-area: 6 / 4 / 12 / 7;
+    background-color: aqua;
+}
+
+.div34 {
+    grid-area: 12 / 4 / 14 / 5;
+    background-color: aqua;
+}
+
+.div35 {
+    grid-area: 12 / 5 / 14 / 6;
+    background-color: aqua;
+}
+
+.div36 {
+    grid-area: 12 / 6 / 14 / 7;
+    background-color: aqua;
+}
+
+.div37 {
+    grid-area: 8 / 7 / 10 / 8;
+    background-color: aqua;
+}
+
+.div38 {
+    grid-area: 10 / 7 / 12 / 8;
+    background-color: aqua;
+}
+
+.div39 {
+    grid-area: 12 / 7 / 14 / 8;
+    background-color: aqua;
+}
+
+.div40 {
+    grid-area: 8 / 8 / 10 / 9;
+    background-color: aqua;
+}
+
+.div41 {
+    grid-area: 8 / 9 / 10 / 10;
+    background-color: aqua;
+}
+
+.div42 {
+    grid-area: 10 / 8 / 12 / 9;
+    background-color: aqua;
+}
+
+.div43 {
+    grid-area: 10 / 9 / 12 / 10;
+    background-color: aqua;
+}
+
+.div44 {
+    grid-area: 12 / 8 / 14 / 9;
+    background-color: aqua;
+}
+
+.div45 {
+    grid-area: 12 / 9 / 14 / 10;
+    background-color: aqua;
+}
+
+.div46 {
+    grid-area: 16 / 1 / 18 / 2;
+    background-color: aqua;
+}
+
+.div47 {
+    grid-area: 16 / 2 / 18 / 3;
+    background-color: aqua;
+}
+
+.div48 {
+    grid-area: 16 / 3 / 18 / 4;
+    background-color: aqua;
+}
+
+.div49 {
+    grid-area: 16 / 4 / 18 / 5;
+    background-color: aqua;
+}
+
+.div50 {
+    grid-area: 16 / 5 / 18 / 6;
+    background-color: aqua;
+}
+
+.div51 {
+    grid-area: 16 / 6 / 18 / 7;
+    background-color: aqua;
+}
+
+.div52 {
+    grid-area: 16 / 7 / 18 / 8;
+    background-color: aqua;
+}
+
+.div53 {
+    grid-area: 16 / 8 / 18 / 9;
+    background-color: aqua;
+}
+
+.div54 {
+    grid-area: 16 / 9 / 18 / 10;
+    background-color: aqua;
+}
+
+.div55 {
+    grid-area: 14 / 9 / 16 / 10;
+    background-color: aqua;
+}
+
+.div56 {
+    grid-area: 14 / 2 / 16 / 3;
+    background-color: aqua;
+    width: 120%;
+}
+
+.div57 {
+    grid-area: 14 / 3 / 16 / 8;
+    background-color: aqua;
+    width: 92%;
+    position: relative;
+    left: 40px;
+
+}
+
+.div58 {
+    grid-area: 14 / 8 / 16 / 9;
+    background-color: aqua;
+    position: relative;
+    right: 35px;
+    width: 116%;
+}
+
+.footeris {
+    height: 10vh;
+    background-color: rgb(107, 106, 104);
+}
+
+.Kontaktai {
+    position: absolute;
+    left: 250px;
+    bottom: 25px;
+    color: rgb(63, 60, 60);
+
+}
+
+.Handy {
+    position: absolute;
+    left: 799px;
+    bottom: 25px;
+    color: rgb(63, 60, 60);
+}
+
+.Privacy {
+    position: absolute;
+    left: 1330px;
+    bottom: 25px;
+    color: rgb(63, 60, 60);
+}
